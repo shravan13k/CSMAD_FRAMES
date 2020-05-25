@@ -1,0 +1,11 @@
+> Python script for extracting "CSMAD" Database video frames from the downloaded "HDF5" files.
+
+> This code only extracts the RGB frames for all the videos. However, small edits in the script can enable the user to extract other kind of frames also, (example : depth images, IR images etc.).
+
+> Import prerequisites:
+  "BOB" toolbox from "IDIAP" (for accessing hdf5 files) (link: https://www.idiap.ch/software/bob/).
+   ALternatively, python modules for dealing with "HDF5" files can also be used (insrtead of "bob.io.base").
+
+> The script can be used in "SPYDER" (ANACONDA) and the addresses to the files can be edited appropriately.
+
+> Finally, the extracted videoframes can be convertd into video files by using simple python functions.
